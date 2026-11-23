@@ -1,28 +1,35 @@
-# Project Title
+# STAT 184 HW 4.3
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repo contains my HW 4.3 report and the files used in it.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
-
-### Interesting Insight (Optional)
-
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+I used Quarto to put my work into one report. It includes diamond summary tables, a Penn State basketball plot, a Monte Carlo simulation, and a comparison of two calcium plots.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+- The diamonds data come from ggplot2.
+- The basketball data come from the NCAA women's basketball dataset shared for the Big Ten Academic Alliance activity.
+- The calcium materials and the generic ChatGPT plot came from my instructor.
+- The simulation uses random points generated in R.
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+I plan to keep the report and its input files together. I will use issues to track tasks and work on the dev branch. Then I will merge my changes into main.
+
+See PLAN.md for more details.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
-
+- 4.3.qmd contains my Quarto source and R code.
+- 4.3.pdf is my saved report.
+- team_box.csv contains the basketball data.
+- calcium_plan_plot.png shows the calcium plot based on my plan.
+- chatgptPlot.png is the generic plot from the assignment.
+- PLAN.md contains my project and repo plans.
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Esther Zhang.
+
+If you have questions, please open an issue in this repo.
