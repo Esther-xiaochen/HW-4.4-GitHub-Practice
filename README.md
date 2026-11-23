@@ -23,7 +23,7 @@ See PLAN.md for more details.
 
 - 4.3.qmd contains my Quarto source and R code.
 - 4.3.pdf is my saved report.
-- team_box.csv contains the basketball data.
+- team_box.zip contains the basketball data. Extract team_box.csv into the same folder as 4.3.qmd before rendering.
 - calcium_plan_plot.png shows the calcium plot based on my plan.
 - chatgptPlot.png is the generic plot from the assignment.
 - PLAN.md contains my project and repo plans.
