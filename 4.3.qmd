@@ -149,8 +149,8 @@ In @tbl-diamond-height, the median height was `r sprintf("%.2f", height_summary$
 #| fig-cap: "Penn State points scored and allowed by game, 2025–26"
 #| fig-alt: "Each point is one game. A blue line connects games by date. Points above the dashed equal-score line are losses, and points below it are wins."
 
-# Keep Penn State games with usable scores.
-# 从同一项目文件夹读取球队数据。
+# Extract the basketball data into the project folder. 解压文件
+unzip("team_box.zip", exdir = ".")
 team_raw <- read_csv(
   file = "team_box.csv",
   show_col_types = FALSE
