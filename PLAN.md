@@ -154,7 +154,7 @@ I also want to use branches, issues, commits, and pull requests to track my work
 
 9. Switch to dev before making changes.
 10. Upload the QMD and PDF.
-11. Upload team_box.csv as a CSV file.
+11. Upload team_box.zip with the basketball data.
 12. Upload both calcium images.
 13. Keep input files where the QMD expects to find them.
 14. Check that file names match the names used in the code.
@@ -188,7 +188,7 @@ I also want to use branches, issues, commits, and pull requests to track my work
 36. Confirm that the repo is public.
 37. Open the PDF and check that it loads.
 38. Open the QMD and check that the source is available.
-39. Check that the CSV and images are present.
+39. Check that the ZIP contains team_box.csv and that both images are present.
 40. Check that the README links and file names are correct.
 41. Submit the repo homepage URL in the assignment.
 
