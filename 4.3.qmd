@@ -14,6 +14,7 @@ execute:
 #| include: false
 
 # 加载整理数据和绘图所需的函数。
+# Follow the Tidyverse Style Guide.
 library(tidyverse)
 # 加载 kable() 来排版表格。
 library(knitr)
